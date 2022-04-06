@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "212206212803",
+    "firebase_url": "https://payment-gateway-app-default-rtdb.firebaseio.com",
+    "project_id": "payment-gateway-app",
+    "storage_bucket": "payment-gateway-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212206212803:android:dc5ade010d65a72aaa3476",
+        "android_client_info": {
+          "package_name": "com.example.payment_gateway_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212206212803-jlmrqnkc74aod90k6pf36007lhpam83e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGpemiNmfB6auf1t-a8Y7fw5Y3TliV7J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212206212803-jlmrqnkc74aod90k6pf36007lhpam83e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212206212803:android:a12a14a11ff3f112aa3476",
+        "android_client_info": {
+          "package_name": "com.example.updatedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212206212803-jlmrqnkc74aod90k6pf36007lhpam83e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGpemiNmfB6auf1t-a8Y7fw5Y3TliV7J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212206212803-jlmrqnkc74aod90k6pf36007lhpam83e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212206212803:android:26148dd1be0089eaaa3476",
+        "android_client_info": {
+          "package_name": "com.showupdate.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212206212803-jlmrqnkc74aod90k6pf36007lhpam83e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGpemiNmfB6auf1t-a8Y7fw5Y3TliV7J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212206212803-jlmrqnkc74aod90k6pf36007lhpam83e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
