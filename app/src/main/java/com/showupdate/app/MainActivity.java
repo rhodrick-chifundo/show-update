@@ -2,6 +2,8 @@ package com.showupdate.app;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -21,7 +23,7 @@ import com.showupdate.app.R;
 public class MainActivity extends AppCompatActivity {
    // String sr1, sr2, sr3, sr4;
     EditText et1, et2 , et5, et6;
-    Button check0;
+    Button check0, paipal;
     TextView t3,t4, t7;
     FirebaseDatabase database;
     DatabaseReference  check, check2, check3;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         et6 = (EditText)findViewById(R.id.sixEditText);
         t7 = (TextView) findViewById(R.id.Casbill);
         check0 = (Button)findViewById(R.id.secBtn);
+        paipal = (Button)findViewById(R.id.pepo);
 
         database = FirebaseDatabase.getInstance();
         check = database.getReference("BANK").child("OLDINALLY CUSTOMERS");
@@ -113,6 +116,13 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
+            }
+        });
+        paipal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Paypal.class);
+                startActivity(intent);
             }
         });
 
